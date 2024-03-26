@@ -40,6 +40,7 @@ hi Title guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
 hi link Typedef Keyword
 hi link Conditional Keyword
 hi link Operator Keyword
+hi link @keyword.function.python Keyword
 
 hi Delimiter guifg=#949494 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 hi @keyword.conditional guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
