@@ -16,8 +16,7 @@ hi Identifier guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=N
 hi Type guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi SignColumn guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi link CmpMenuBorder Normal
-hi link Variable Normal
-
+hi Variable guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 
 hi Search guifg=#000000 guibg=#CCCBC8 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi link IncSearch Search
@@ -32,13 +31,17 @@ hi link Character String
 
 hi Keyword guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
 hi Title guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
-hi link Typedef Keyword
-hi link Conditional Keyword
-hi link Operator Keyword
+hi Typedef guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
+hi Conditional guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
+hi Operator guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
 
 hi Delimiter guifg=#949494 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
 
 " hi Function guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
+" hi Function guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
+hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+hi link goFunctionCall Function
+
 hi Macro guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 " hi Macro guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi link SpecialChar Macro
@@ -111,20 +114,17 @@ hi pandocAtxHeader guifg=#D79128 guibg=NONE gui=bold ctermfg=254 ctermbg=NONE ct
 hi pandocAtxStart guifg=#D79128 guibg=NONE gui=bold ctermfg=254 ctermbg=NONE cterm=bold
 hi pandocAtxHeaderMark guifg=#D79128 guibg=NONE gui=bold ctermfg=254 ctermbg=NONE cterm=bold
 
-" hi Function guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
-hi link Function Macro
-hi link goFunctionCall Function
-
 hi Visual guifg=#000000 guibg=#7B7B7B gui=NONE ctermfg=0 ctermbg=115 cterm=NONE
 
 hi Constant guifg=#A6A6A6 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
 if has('nvim')
-  if exists('g:nvim_treesitter#highlight')
+  if exists('g:loaded_nvim_treesitter')
     hi link @keyword.function Function
     hi link @property.c Normal
 
-    hi link @Variable Normal
+    hi @variable guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
+
     hi link @property.c Normal
     hi link @tag.html Normal
     hi link @tag.delimiter Normal
