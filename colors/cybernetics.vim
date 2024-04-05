@@ -17,6 +17,7 @@ hi Type guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi SignColumn guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi link CmpMenuBorder Normal
 hi Variable guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
+hi Structure guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
 hi Search guifg=#000000 guibg=#CCCBC8 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi link IncSearch Search
@@ -94,7 +95,6 @@ hi Repeat guifg=#EEEEEE guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cterm=NONE
 hi SpellBad guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi CTagsClass guifg=#2459e0 guibg=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
 hi Directory guifg=#536991 guibg=NONE gui=bold ctermfg=252 ctermbg=NONE cterm=bold
-hi Structure guifg=#EEEEEE guibg=NONE gui=bold ctermfg=252 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi TabLine guifg=#7a7679 guibg=#252429 gui=bold ctermfg=243 ctermbg=235 cterm=bold
 
