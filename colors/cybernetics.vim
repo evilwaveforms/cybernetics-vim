@@ -12,11 +12,11 @@ set t_Co=256
 let g:colors_name = "cybernetics"
 
 hi Normal guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
-hi Identifier guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
+hi Identifier guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Type guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi SignColumn guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi link CmpMenuBorder Normal
-hi Variable guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
+hi Variable guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Structure guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
 hi Search guifg=#000000 guibg=#CCCBC8 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
