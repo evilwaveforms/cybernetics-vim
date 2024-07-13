@@ -94,7 +94,7 @@ hi LocalVariable guifg=#f0f0f0 guibg=NONE gui=NONE ctermfg=255 ctermbg=NONE cter
 hi Repeat guifg=#EEEEEE guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cterm=NONE
 hi SpellBad guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi CTagsClass guifg=#2459e0 guibg=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE
-hi Directory guifg=#536991 guibg=NONE gui=bold ctermfg=252 ctermbg=NONE cterm=bold
+hi Directory guifg=#536991 guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi TabLine guifg=#7a7679 guibg=#252429 gui=bold ctermfg=243 ctermbg=235 cterm=bold
 
