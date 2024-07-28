@@ -9,7 +9,7 @@ endif
 
 set background=light
 set t_Co=256
-let g:colors_name = "cybernetics-hx
+let g:colors_name = "cybernetics-hx"
 
 hi Normal guifg=#A4A0E8 guibg=#3B224C gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi Identifier guifg=#A4A0E8 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
