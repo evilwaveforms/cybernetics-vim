@@ -98,9 +98,8 @@ hi Directory guifg=#536991 guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cterm=NO
 hi Underlined guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi TabLine guifg=#7a7679 guibg=#252429 gui=bold ctermfg=243 ctermbg=235 cterm=bold
 
-hi Cursor guifg=#192224 guibg=#6ED4BA gui=NONE ctermfg=235 ctermbg=249 cterm=NONE
+hi Cursor guifg=#000000 guibg=#3F9834 gui=NONE ctermfg=235 ctermbg=249 cterm=NONE
 hi CursorColumn guifg=NONE guibg=#000000 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
-hi cursorim guifg=#192224 guibg=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
 hi CursorLine guifg=NONE guibg=#1f1f1f gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
 hi cursorlinenr guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
