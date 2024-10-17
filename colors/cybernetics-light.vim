@@ -11,22 +11,22 @@ set background=light
 set t_Co=256
 let g:colors_name = "cybernetics-light"
 
-hi Normal guifg=#000000 guibg=#FCF5E5 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
+hi Normal guifg=#000000 guibg=#A4A1A4 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi Identifier guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Type guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi SignColumn guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi SignColumn guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi link CmpMenuBorder Normal
-hi Variable guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi Variable guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Structure guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
-hi NormalFloat guifg=#000000 guibg=#FCF5E5 gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi NormalFloat guifg=#000000 guibg=#A4A1A4 gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
 hi Search guifg=#000000 guibg=#CCCBC8 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi link IncSearch Search
 
 hi WildMenu guifg=#000000 guibg=#A6A6A6 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 
-hi Comment guifg=#949494 guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
+hi Comment guifg=#777777 guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
 hi link SpecialComment Comment
 
 hi String guifg=#444444 guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
@@ -64,9 +64,9 @@ hi NonText guifg=#5E6C70 guibg=NONE gui=italic ctermfg=66 ctermbg=NONE cterm=NON
 hi ErrorMsg guifg=#A1A6A8 guibg=#4a1701 gui=NONE ctermfg=248 ctermbg=52 cterm=NONE
 hi StorageClass guifg=#757575 guibg=NONE gui=NONE ctermfg=244 ctermbg=NONE cterm=NONE
 hi Todo guifg=#d7d7e0 guibg=#3d0011 gui=NONE ctermfg=254 ctermbg=52 cterm=NONE
-hi LineNr guifg=#949494 guibg=#FCF5E5 gui=NONE ctermfg=238 ctermbg=0 cterm=NONE
-hi StatusLine guifg=#444444 guibg=#FCF5E5 gui=bold ctermfg=240 ctermbg=0 cterm=bold
-hi Statement guifg=#949494 guibg=NONE gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
+hi LineNr guifg=#777777 guibg=#A4A1A4 gui=NONE ctermfg=238 ctermbg=0 cterm=NONE
+hi StatusLine guifg=#444444 guibg=#A4A1A4 gui=bold ctermfg=240 ctermbg=0 cterm=bold
+hi Statement guifg=#000000 guibg=NONE gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
 hi SpellRare guifg=#F9F9FF guibg=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi TabLineSel guifg=#544251 guibg=#0f0f0f gui=bold ctermfg=240 ctermbg=233 cterm=bold
 hi Number guifg=#000000 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
