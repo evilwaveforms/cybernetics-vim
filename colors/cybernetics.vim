@@ -40,6 +40,7 @@ hi Delimiter guifg=#949494 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NO
 
 " hi Function guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
 " hi Function guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
+" hi Function guifg=#3F9834 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi link goFunctionCall Function
 
@@ -134,5 +135,6 @@ if has('nvim')
     hi @keyword.conditional guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
     hi @keyword.return guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
     hi @keyword.import guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
+    hi @keyword.repeat guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE
   endif
 endif
