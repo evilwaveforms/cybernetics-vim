@@ -24,10 +24,10 @@ hi link IncSearch Search
 
 hi WildMenu guifg=#000000 guibg=#A6A6A6 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 
-hi Comment guifg=#444444 guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
+hi Comment guifg=#4f4d4d guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
 hi link SpecialComment Comment
 
-hi String guifg=#444444 guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
+hi String guifg=#4f4d4d guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi link Character String
 
 hi Keyword guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
