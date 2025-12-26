@@ -24,10 +24,10 @@ hi link IncSearch Search
 
 hi WildMenu guifg=#000000 guibg=#A6A6A6 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 
-hi Comment guifg=#4f4d4d guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
+hi Comment guifg=#933744 guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
 hi link SpecialComment Comment
 
-hi String guifg=#4f4d4d guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
+hi String guifg=#933744 guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi link Character String
 
 hi Keyword guifg=#949494 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE cterm=NONE
@@ -103,7 +103,7 @@ hi TabLine guifg=#7a7679 guibg=#252429 gui=bold ctermfg=243 ctermbg=235 cterm=bo
 hi Cursor guifg=#000000 guibg=#3F9834 gui=NONE ctermfg=235 ctermbg=249 cterm=NONE
 hi CursorColumn guifg=NONE guibg=#000000 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi CursorLine guifg=NONE guibg=#1f1f1f gui=NONE ctermfg=NONE ctermbg=234 cterm=NONE
-hi cursorlinenr guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi cursorlinenr guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
 hi PMenu guifg=#808070 guibg=#000000 gui=NONE ctermfg=7 ctermbg=235 cterm=NONE
 hi PMenuSbar guifg=NONE guibg=#848688 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE
