@@ -15,7 +15,10 @@ hi Normal guifg=#949494 guibg=#000000 gui=NONE ctermfg=248 ctermbg=0 cterm=NONE
 hi Identifier guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Type guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi SignColumn guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi link CmpMenuBorder Normal
+
+hi NormalFloat guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi FloatBorder guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+
 hi Variable guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Structure guifg=#949494 guibg=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 
