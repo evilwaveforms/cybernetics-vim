@@ -32,6 +32,7 @@ hi link SpecialComment Comment
 
 hi DiagnosticUnnecessary guifg=#4f4d4d guibg=NONE gui=italic ctermfg=59 ctermbg=NONE cterm=NONE
 
+" hi String guifg=#BD9800 guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi String guifg=#933744 guibg=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi link Character String
 
@@ -47,10 +48,11 @@ hi Delimiter guifg=#949494 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NO
 " hi Function guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
 " hi Function guifg=#3F9834 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 " hi Function guifg=#54c047 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
-hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+" hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+hi Function guifg=#C0FE03 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi link goFunctionCall Function
 
-hi Macro guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+hi Macro guifg=#C0FE03 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 " hi Macro guifg=#E0EBEB guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi link SpecialChar Macro
 hi link Debug Macro
