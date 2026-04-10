@@ -48,8 +48,8 @@ hi Delimiter guifg=#949494 guibg=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NO
 " hi Function guifg=#D4D4D4 guibg=NONE gui=NONE ctermfg=115 ctermbg=NONE cterm=NONE
 " hi Function guifg=#3F9834 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 " hi Function guifg=#54c047 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
-" hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
-hi Function guifg=#C0FE03 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+hi Function guifg=#BD9800 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
+" hi Function guifg=#C0FE03 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
 hi link goFunctionCall Function
 
 hi Macro guifg=#C0FE03 guibg=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
